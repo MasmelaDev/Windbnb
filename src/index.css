@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  max-width: 1680px;
+  min-height: 100vh;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  padding: 0 20px;
+}
+.StaysRender{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(320px,384px));
+  gap: 24px;
+  justify-content: center;
+}
