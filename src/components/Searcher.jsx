@@ -42,7 +42,7 @@ function Searcher({ filters, setFilters }) {
               animate={{ y: 0 }}
               exit={{ y: -1000 }}
               transition={{ duration: 0.4 }}
-              className="bg-white fixed w-full z-30 top-0 right-0 pt-14 h-[65%] md:h-[45%]"
+              className="bg-white fixed w-full z-30 top-0 right-0 pt-14 h-[420px]"
             >
               <div className="flex rounded-2xl overflow-hidden flex-col md:h-16 md:flex-row w-4/5 md:3/5  mx-auto  shadow-[0_1px_6px_0_rgba(0,0,0,0.10)]">
                 <div
